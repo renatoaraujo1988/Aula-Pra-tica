@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./index.css"/>
+
+</head>
+<body>
+    <h1 id="TITULOLISTA">Lista de Tarefas</h1>
+    <div>
+        <input type="text" id="CaixaDeTexto" placeholder="Digite uma Tarefa">
+        <button id="BotaoAdicionar" class="Adicionar">✚</button>
+
+        <select id="ListaSuspensa" hidden>
+            <option>--->Selecione uma Opção<---</option>
+            <option>Marcar todas as Tarefas</option>
+            <option>Desmarcar todas as Tarefas</option>
+            <option>Limpar a Lista de Tarefas</option>
+        </select>
+    </div>
+
+    <ul id="ListaTarefas">
+
+    </ul>
+
+
+     <script src="./index.js"></script>
+</body>
+</html>
